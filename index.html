@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Spacing, blur and base color update via JS</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+    <div class="controls">
+        <label for="spacing">Spacing</label>
+        <input type="range" id="spacing" min="10" max="20" value="10" data-sizing="px">
+
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" min="0" max="25" value="10" data-sizing="px">
+
+        <label for="basecolor">Base Color</label>
+        <input type="color" id="basecolor" value="#ffc600">
+    </div>
+
+    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" alt="">
+
+    <script src="./script.js"></script>
+</body>
+</html>
